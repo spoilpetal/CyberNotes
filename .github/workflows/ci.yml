@@ -1,0 +1,41 @@
+name: Build and test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rust:
+    name: ${{ matrix.name }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Linux x86_64
+            os: ubuntu-24.04
+          - name: Linux ARM64
+            os: ubuntu-24.04-arm
+          - name: Windows x86_64
+            os: windows-latest
+          - name: macOS Intel
+            os: macos-15-intel
+          - name: macOS Apple Silicon
+            os: macos-latest
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - name: Generate dependency lockfile when missing
+        if: hashFiles('Cargo.lock') == ''
+        run: cargo generate-lockfile
+      - name: Check all targets
+        run: cargo check --locked --all-targets
+      - name: Test all targets
+        run: cargo test --locked --all-targets
+      - name: Release build
+        run: cargo build --locked --release

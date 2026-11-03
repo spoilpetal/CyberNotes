@@ -1,0 +1,5 @@
+Third-party source and licensing notice
+
+The clipboard implementation in src/clipboard/ is adapted from the CyberClip source supplied by the user and the public repository https://github.com/spoilpetal/CyberClip. The adaptation follows CyberClip's clipboard module structure and Wayland provider design.
+
+Important: the inspected CyberClip archive contains no standalone LICENSE file or SPDX license declaration. Its current GitHub README includes a custom statement saying the software is "not permit to sell", but does not provide a complete, standard license grant or clearly state modification/redistribution permissions. Therefore this package does NOT represent the adapted CyberClip clipboard code as MIT-licensed. Obtain clarification/permission from the CyberClip author before publishing or commercially distributing a derivative that includes that code. The MIT LICENSE in this project applies only to original CyberNotes code, excluding src/clipboard/ and any other portions derived from CyberClip.
