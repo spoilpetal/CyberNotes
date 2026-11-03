@@ -18,6 +18,42 @@
 - `cybernotes` full command and `cbn` short alias.
 - Notes persist across restarts and reboots. Uninstalling the application does not delete note data.
 
+
+## Screenshots & Preview
+
+### TUI – Fresh View
+
+![CyberNotes Fresh TUI View](https://raw.githubusercontent.com/spoilpetal/Picture_Vault/main/CyberNotes/V0.2.0/fresh_view.png)
+
+### Adding a New Note Through TUI
+
+![CyberNotes Add New Note UI](https://raw.githubusercontent.com/spoilpetal/Picture_Vault/main/CyberNotes/V0.2.0/add_new_ui.png)
+
+### Built-in Editor – Fresh View
+
+![CyberNotes Built-in Editor](https://raw.githubusercontent.com/spoilpetal/Picture_Vault/main/CyberNotes/V0.2.0/builtin_editor_fresh.png)
+
+### Notes Added – TUI View
+
+![CyberNotes Notes Added](https://raw.githubusercontent.com/spoilpetal/Picture_Vault/main/CyberNotes/V0.2.0/notes_added.png)
+
+### CLI – Adding a Note to the Queue
+
+![CyberNotes CLI Note Add Queue](https://raw.githubusercontent.com/spoilpetal/Picture_Vault/main/CyberNotes/V0.2.0/cli_note_add_que.png)
+
+### CLI – Listing Notes & Queue Import
+
+![CyberNotes Queue Added List Show](https://raw.githubusercontent.com/spoilpetal/Picture_Vault/main/CyberNotes/V0.2.0/que_added_list_show.png)
+
+### CLI – Help Menu
+
+![CyberNotes CLI Help](https://raw.githubusercontent.com/spoilpetal/Picture_Vault/main/CyberNotes/V0.2.0/help.png)
+
+### Built-in Editor – Editing a Note
+
+![CyberNotes While Editing](https://raw.githubusercontent.com/spoilpetal/Picture_Vault/main/CyberNotes/V0.2.0/while%20editing.png)
+
+
 ## Install
 
 ### Download a prebuilt binary
