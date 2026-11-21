@@ -1,4 +1,4 @@
-# CyberNotes
+<h1 align="center">CyberNotes</h1>
 
 **CyberNotes** is a local-first sticky-notes application for the terminal. It provides a command-line interface and a keyboard-driven TUI for Linux (Wayland/Hyprland and X11), Windows, and macOS. It has no graphical desktop window, cloud account, remote server, or background synchronization.
 
@@ -280,6 +280,53 @@ This preserves the user's note data.
 GitHub Actions runs Cargo checks, tests, and release builds on Linux x86-64, Linux ARM64, Windows x86-64, macOS Intel, and macOS Apple Silicon. Platform archives and SHA-256 checksum files are produced for supported release builds.
 
 Clipboard runtime behavior still needs to be tested on each actual desktop session (Wayland/Hyprland, X11, Windows, and macOS); a successful cross-platform compile alone does not prove native clipboard behavior on every host.
+
+
+---
+
+## Cyber Project Collection (Don't get idea about `CS`)
+
+CyberNotes is part of a collection of independent Cyber projects.
+
+### 1. CyberPunk
+
+**Repository:** https://github.com/spoilpetal/CyberPunk
+
+The Arch Linux desktop configuration and installation project. It provides an automated way to deploy the CyberPunk Hyprland desktop environment.
+
+### 2. CyberClip Lite
+
+**Repository:** https://github.com/spoilpetal/CyberClip_lite
+
+A lightweight project in the CyberClip clipboard utility collection.
+
+### 3. CyberClip
+
+**Repository:** https://github.com/spoilpetal/CyberClip
+
+A clipboard utility project in the Cyber software collection.
+
+### 4. CyberShot
+
+**Repository:** https://github.com/zaynkhan100110/CyberShot
+
+A screenshot utility for Linux desktop environments.
+
+### 5. CyberSettings
+
+**Repository:** https://github.com/zaynkhan100110/CyberSettings
+
+A Linux system settings utility project.
+
+### 6. CyberNotes
+
+**Repository:** https://github.com/spoilpetal/CyberNotes
+
+A note-taking project in the Cyber software collection.
+
+---
+
+
 
 ## License and third-party code
 
